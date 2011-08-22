@@ -19,9 +19,6 @@ __license__         = 'BSD'
 __url__             = 'http://dev.ufsoft.org/projects/daemon'
 __description__     = __doc__
 
-import gevent.monkey
-gevent.monkey.patch_all()
-
 import os
 import sys
 import errno
